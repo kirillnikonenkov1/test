@@ -1,0 +1,40 @@
+@mixin space-classes-generator($class-name, $property, $breakpoint: null) {
+  $_name: null;
+  $_name-auto: null;
+  @for $i from 0 through $range-spacing {
+    @if $breakpoint == null {
+      $_name: #{$class-name}-#{$i};
+    } @else {
+      $_name:#{$class-name}-#{$breakpoint}-#{$i};
+    };
+    .#{$_name} {
+      @each $item in $property {
+        #{$item}: $i * 4px !important;
+      }
+    }
+  }
+  @if $breakpoint == null {
+    $_name-auto: #{$class-name}-auto;
+  } @else {
+    $_name-auto: #{$class-name}-#{$breakpoint}-auto;
+  };
+  .#{$_name-auto} {
+    @each $item in $property {
+      #{$item}: auto!important;
+    }
+  }
+}
+
+@mixin initial-space-classes-creating($prefix: null){
+  @each $class-name, $property in $classes-base {
+    @include space-classes-generator($class-name, $property, $prefix);
+  }
+}
+
+@include initial-space-classes-creating();
+
+@each $prefix, $size in $break-points {
+  @media (min-width: $size) {
+    @include initial-space-classes-creating($prefix)
+  }
+}

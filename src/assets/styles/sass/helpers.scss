@@ -1,0 +1,52 @@
+.container {
+  max-width: 1124px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+// display helpers
+
+.d-flex {
+  display: flex;
+  width: 100%;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .justify-md-start {
+    justify-content: flex-start;
+  }
+}
+
+// Text helpers
+
+.text-bold {
+  font-weight: 700;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.word-break {
+  word-break: break-word;
+}

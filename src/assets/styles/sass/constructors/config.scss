@@ -1,0 +1,29 @@
+$break-points: (
+  xs: 320px,
+  sm: 375px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1440px,
+);
+
+// Настройки для отступов
+$classes-base: (
+  ma: margin,
+  mx: margin-right margin-left,
+  my: margin-top margin-bottom,
+  mt: margin-top,
+  mb: margin-bottom,
+  ml: margin-left,
+  mr: margin-right,
+  pa: padding,
+  px: padding-right padding-left,
+  py: padding-top padding-bottom,
+  pt: padding-top,
+  pb: padding-bottom,
+  pl: padding-left,
+  pr: padding-right,
+);
+
+$spacing-step: 4px;
+
+$range-spacing: 15;
