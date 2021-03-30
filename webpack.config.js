@@ -4,9 +4,6 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const setPath = (folderName) => {
-    return path.join(__dirname, folderName)
-}
 const miniCssExtractPluginOptions = {
     loader: MiniCssExtractPlugin.loader,
     options: {
@@ -20,9 +17,9 @@ const config = {
         './src/index.js'
     ],
     output: {
-        filename: '[name].[contenthash].js',
-        chunkFilename: 'chunk.[name].[contenthash].js',
-        path: path.resolve(__dirname, '/public'),
+        filename: 'js/[name].[contenthash].js',
+        chunkFilename: 'js/chunk.[name].[contenthash].js',
+        path: path.resolve(__dirname, 'public'),
         publicPath: '/'
     },
     watchOptions: {
@@ -32,7 +29,8 @@ const config = {
     resolve: {
         extensions: ['.js', '.vue', '.json'],
         alias: {
-            '@': path.resolve(__dirname, 'src')
+            '@': path.resolve(__dirname, 'src'),
+            'vue$': 'vue/dist/vue.esm.js'
         },
     },
     devServer: {
@@ -103,19 +101,19 @@ const config = {
                     ]
             }
         ],
+    },
+    optimization: {
+        runtimeChunk: 'single',
+        splitChunks: {
+            cacheGroups: {
+                vendor: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: 'vendors',
+                    chunks: 'all'
+                }
+            }
+        }
     }
-    // optimization: {
-    //     runtimeChunk: 'single',
-    //     splitChunks: {
-    //         cacheGroups: {
-    //             vendor: {
-    //                 test: /[\\/]node_modules[\\/]/,
-    //                 name: 'vendors',
-    //                 chunks: 'all'
-    //             }
-    //         }
-    //     }
-    // }
 }
 
 module.exports = config

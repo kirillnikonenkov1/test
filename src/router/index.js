@@ -5,7 +5,6 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
     mode: 'history',
-    duplicateNavigationPolicy: 'ignore',
     routes: [
         {
             path: "*",
@@ -15,19 +14,19 @@ const router = new VueRouter({
         {
             path: '/',
             name: 'index',
-            component: () => import(/* webpackChunkName: "app" */ '@/pages/index.vue'),
+            component: () => import('@/pages/index.vue'),
             children: [
                 {
                     path: 'search/:query',
                     name: 'search',
                     props: true,
-                    component: () => import(/* webpackChunkName: "search" */'@/pages/search.vue'),
+                    component: () => import('@/pages/search.vue'),
                     children: [
                         {
                             path: 'user/:login',
                             name: 'user',
                             props: true,
-                            component: () => import(/* webpackChunkName: "user" */'@/pages/user/user.vue')
+                            component: () => import('@/pages/user/user.vue')
                         }
                     ]
                 }

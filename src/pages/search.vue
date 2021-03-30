@@ -47,7 +47,7 @@
       <pagination
         :num-of-pages="getTotalNumOfPages"
         :current-page="+$route.query.page"
-        @change="v => $router.push({name: 'search', query: { page: v }})"
+        @change="v => $router.push({name: 'search', query: { page: v.toString() }})"
       />
 
     </div>
@@ -143,5 +143,22 @@ export default {
   width: 100%;
   font-size: 32px;
   text-align: center;
+}
+.card {
+  &__img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  &__img-wrapper:after {
+    content: "";
+    padding-top: 100%;
+    display: block;
+  }
 }
 </style>

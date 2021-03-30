@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="655bcb0a-0a26-402f-8129-ee9bfc7361ba" name="Default Changelist" comment="" />
+    <list default="true" id="655bcb0a-0a26-402f-8129-ee9bfc7361ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cross-env" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/cross-env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cross-env-shell" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/cross-env-shell" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/node-sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/configtest/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/configtest/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/configtest/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/configtest/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/configtest/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/configtest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/configtest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/info/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/info/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/info/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/info/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/info/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/info/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/info/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/info/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/lib/startDevServer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/lib/startDevServer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/lib/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/lib/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webpack-cli/serve/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-env/node_modules/.bin/node-which" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-env/node_modules/.bin/node-which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-env/node_modules/which/bin/node-which" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-env/node_modules/which/bin/node-which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-env/src/bin/cross-env-shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-env/src/bin/cross-env-shell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-env/src/bin/cross-env.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-env/src/bin/cross-env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/config.gypi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/.bin/node-which" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/node_modules/.bin/node-which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-cli/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-cli/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-cli/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-cli/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-cli/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-cli/bin/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-cli/bin/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-cli/lib/plugins/CLIPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-cli/lib/plugins/CLIPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-cli/lib/webpack-cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-cli/lib/webpack-cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chunk.app.350e26a13e1c30167383.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chunk.search.ee7171c7ef9e3f3dde20.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chunk.user.b90e9baf739491c3b547.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/chunk.app.fb7b6691605045cb36b7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/chunk.search.9057c6849ecf230121c6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/chunk.user.94e0c0a2404ba967ea4b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/index.fb22ff2d5f4abb5520d1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/main.b32e3ecd78bd8a916d9a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/main.b32e3ecd78bd8a916d9a.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pagination.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagination.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/search.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/getters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +81,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1qG6rULiPa6rPgjIIE60FalvCis" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,6 +127,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="378" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616924294476">

@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default {
     searchGitUser({commit, getters}, payload) {
-        let _api_url = `https://api.github.com/search/users?q=${payload.query}+in:login;page=${payload.page}`
+        let _api_url = `https://api.github.com/search/users?q=${payload.query}+in:login;per_page=${getters.getUsersPerPage};page=${payload.page}`
 
         if (payload.sorting) {
             _api_url += `;sort=repositories&order=${payload.sorting}`

@@ -6,13 +6,13 @@
       <c-button
           class="mr-1"
           :disabled="currentPage === 1"
-          @click="$emit('change', currentPage - 1)"
+          @click="$emit('change', 1)"
       >
-        Назад
+        В начало
       </c-button>
       <c-button
         v-if="showItem(item)"
-        v-for="item in numOfPages"
+        v-for="item in maxNumOfPages"
         :key="item"
         :class="{'pagination__item--active': currentPage === item}"
         class="pagination__item mr-1"
@@ -20,16 +20,17 @@
       >
           {{ item }}
       </c-button>
-    <c-button
-      :disabled="currentPage === numOfPages"
-      @click="$emit('change', currentPage + 1)"
-    >
-      Вперед
-    </c-button>
+      <c-button
+        :disabled="currentPage === maxNumOfPages"
+        @click="$emit('change', maxNumOfPages)"
+      >
+        В конец
+      </c-button>
   </div>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 export default {
   props: {
     numOfPages: {type: Number, default: 0},
@@ -37,15 +38,22 @@ export default {
     showRight: {type: Number, default: 5},
     currentPage: {type: [String, Number], default: 1}
   },
+  computed: {
+    ...mapGetters(['getMaxNumOfPages']),
+    maxNumOfPages() {
+      if (this.getMaxNumOfPages > this.numOfPages) return this.numOfPages
+      return this.getMaxNumOfPages
+    }
+  },
   methods: {
     showItem(item) {
       if (this.currentPage <= this.showLeft) {
         return item < (this.showLeft + this.showRight)
       }
-      if (this.currentPage > this.showLeft && this.currentPage < (this.numOfPages - this.showRight)) {
+      if (this.currentPage > this.showLeft && this.currentPage < (this.maxNumOfPages - this.showRight)) {
         return item > (this.currentPage - this.showLeft) && item < (this.currentPage + this.showRight)
       }
-        return (item - 1) > (this.numOfPages - this.showRight - this.showLeft)
+        return (item - 1) > (this.maxNumOfPages - this.showRight - this.showLeft)
     }
   }
 }
