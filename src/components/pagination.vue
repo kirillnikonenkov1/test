@@ -40,12 +40,14 @@ export default {
   },
   computed: {
     ...mapGetters(['getMaxNumOfPages']),
+    // Выберет, сколько страниц отобразится в пагинации
     maxNumOfPages() {
       if (this.getMaxNumOfPages > this.numOfPages) return this.numOfPages
       return this.getMaxNumOfPages
     }
   },
   methods: {
+    // Определяет текущие кнопки пагинации
     showItem(item) {
       if (this.currentPage <= this.showLeft) {
         return item < (this.showLeft + this.showRight)

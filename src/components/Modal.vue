@@ -41,6 +41,7 @@ export default {
     }
   },
   mounted() {
+    // Убираем скролл страницы
     document.querySelector('html').classList.add('no-scroll')
 
     // Вставляем первым внутри body
