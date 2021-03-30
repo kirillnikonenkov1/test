@@ -21,7 +21,8 @@ const config = {
     ],
     output: {
         filename: '[name].[contenthash].js',
-        path: path.resolve(__dirname, 'public'),
+        chunkFilename: 'chunk.[name].[contenthash].js',
+        path: path.resolve(__dirname, '/public'),
         publicPath: '/'
     },
     watchOptions: {
@@ -31,7 +32,7 @@ const config = {
     resolve: {
         extensions: ['.js', '.vue', '.json'],
         alias: {
-            '@': path.join(__dirname, './src')
+            '@': path.resolve(__dirname, 'src')
         },
     },
     devServer: {
@@ -42,8 +43,7 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            appMountId: 'app',
-            filename: 'index.html'
+            template: './src/index.html'
         }),
         new CleanWebpackPlugin(),
         new VueLoaderPlugin(),
